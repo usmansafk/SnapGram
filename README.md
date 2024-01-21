@@ -17,14 +17,28 @@ If you are developing a production application, we recommend updating the config
 export default {
   // other rules...
   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+    ecmaVersion: "latest",
+    sourceType: "module",
+    project: ["./tsconfig.json", "./tsconfig.node.json"],
+    tsconfigRootDir: __dirname
+  }
+};
 ```
 
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+## Usman's Notes:
+
+- http://localhost:5173/
+- https://www.youtube.com/watch?v=_W3R2VwRyF4&list=PL6QREj8te1P6wX9m5KnicnDVEucbOPsqR | Time stamp: 41:50
+- Next project: https://www.youtube.com/watch?v=0fYi8SGA20k&list=PL6QREj8te1P6wX9m5KnicnDVEucbOPsqR&index=3
+
+Tools:
+
+- reactJS : https://react.dev/
+- appwrite : https://cloud.appwrite.io - Login using GitHub
+- Vite : https://vitejs.dev/ - Frontend Tooling
+- tailwindcss : https://tailwindcss.com/
+- shadcn : https://ui.shadcn.com/ - React component library
